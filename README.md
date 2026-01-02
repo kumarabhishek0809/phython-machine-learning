@@ -1,4 +1,3 @@
-
 pip install -r requirements.txt
 
 # 1. Create virtual environment (recommended)
@@ -53,3 +52,20 @@ uvicorn stock_api:app --reload  # For the new /stock endpoint
 
   ```bash
   curl "http://127.0.0.1:8000/stock/TSLA"
+
+# Health Insurance ML Classification
+
+A machine learning project for classifying health status based on BMI, blood pressure, and cholesterol levels.
+
+## Installation
+
+1. Navigate to the health-insurance-ml directory:
+2. Create a virtual environment (optional but recommended):
+3. Install dependencies:
+4. Open the Jupyter notebook:
+
+## Project Structure
+
+- `data/health_data.csv`: Sample health dataset
+- `notebooks/health_classification.ipynb`: Jupyter notebook with data preprocessing and model training
+- `requirements.txt`: Python dependencies
